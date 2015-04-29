@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Backgrounds>
+	<Directory name = "../lib/Background/"/>
+	<Background type = "Background">
+		<width>1024</width>
+		<height>768</height>
+		<extension>.gif</extension>
+		<Background name = "YoshiBackground"/>
+		<Background name = "TitleBackground"/>
+	</Background>
+	<Background type = "Logo">
+		<width>463</width>
+		<height>215</height>
+		<extension>.png</extension>
+		<Background name = "TitleLogo"/>
+	</Background>
+	<Background type = "Background">
+		<width>876</width>
+		<height>602</height>
+		<extension>.png</extension>
+		<Background name = "LuminesBackground"/>
+	</Background>
+	<Background type = "Combo">
+		<width>106</width>
+		<height>64</height>
+		<extension>.png</extension>
+		<Background name = "ComboBox"/>
+	</Background>
+	<Background type = "Game">
+		<width>480</width>
+		<height>84</height>
+		<extension>.png</extension>
+		<Background name = "BonusGame"/>
+	</Background>
+	<Background type = "Info">
+		<width>684</width>
+		<height>372</height>
+		<extension>.png</extension>
+		<Background name = "InfoScreen1"/>
+	</Background>
+</Backgrounds>

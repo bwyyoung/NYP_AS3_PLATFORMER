@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tiles>
+	<Directory name = "../lib/Tiles/"/>
+	<tiles type = "Block">
+		<tile name = "Bush">
+			<width>48</width>
+			<height>48</height>
+			<numtiles>7</numtiles>
+		</tile>
+		<tile name = "GrassyGround">
+			<width>48</width>
+			<height>48</height>
+			<numtiles>24</numtiles>
+		</tile>
+	</tiles>
+	<tiles type = "Diagonal">
+		<tile name = "GrassyGroundDiag">
+			<width>48</width>
+			<height>48</height>
+			<numtiles>6</numtiles>
+		</tile>
+	</tiles>
+</tiles>

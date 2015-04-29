@@ -1,0 +1,21 @@
+<GameSettings>
+	<Settings type="Map">
+		<width>11</width>
+		<height>11</height>
+		<blocksize>42</blocksize>
+		<stacksize>3</stacksize>
+		<stackspace>12</stackspace>
+		<quadsize>2</quadsize>
+		<matchsize>2</matchsize>
+		<animspeed>0.4</animspeed>
+		<mapoffsetx>384</mapoffsetx>
+		<mapoffsety>148</mapoffsety>
+		<stackoffsetx>237</stackoffsetx>
+		<stackoffsety>148</stackoffsety>
+		<timelinespeed>2</timelinespeed>
+		<mapfillalert>60</mapfillalert>
+		<maxcombo>8</maxcombo>
+		<startx>4</startx>
+		<starty>0</starty>
+	</Settings>
+</GameSettings>

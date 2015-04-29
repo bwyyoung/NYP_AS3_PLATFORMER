@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MenuButtons>
+	<Class name = "MenuItem"></Class>
+	<Menu type="Menus::MainMenu">
+		<Buttons>
+			<button name = "Start Game">
+				<x>450</x>
+				<y>450</y>
+				<Link name = "States::GameState"></Link>
+			</button>
+		</Buttons>
+	</Menu>
+	<Menu type = "Menus::Pause">
+		<Buttons>
+			<button name = "Go Back">
+				<x>100</x>
+				<y>100</y>
+				<Link name = "States::MenuState"></Link>
+				<Link name = "GameProperties::Pause"></Link>
+			</button>
+			<button name = "Close ">
+				<x>100</x>
+				<y>120</y>
+				<Link name = "Menus::Close"></Link>
+				<Link name = "GameProperties::Pause"></Link>
+			</button>
+		</Buttons>
+	</Menu>
+</MenuButtons>

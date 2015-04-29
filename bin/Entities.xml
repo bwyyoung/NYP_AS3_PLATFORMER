@@ -1,0 +1,452 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<entities>
+	<players>
+		<Directory name = "../lib/Entities/"/>
+		<player name = "MarioHead">
+			<width>128</width>
+			<height>64</height>
+			<Animation name="Stand">
+				<Frame>0</Frame>
+				<Loop>0</Loop>
+				<Framerate>1</Framerate>
+			</Animation>
+		</player>
+		<player name = "Mario">
+			<width>72</width>
+			<height>96</height>
+			<Animation name="Stand">
+				<Frame>0</Frame>
+				<Loop>0</Loop>
+				<Framerate>1</Framerate>
+			</Animation>
+			<Animation name="Walk">
+				<Frame>0</Frame>
+				<Frame>1</Frame>
+				<Loop>1</Loop>
+				<Framerate>8</Framerate>
+			</Animation>
+			<Animation name="Jump Up">
+				<Frame>4</Frame>
+				<Loop>0</Loop>
+				<Framerate>1</Framerate>
+			</Animation>
+			<Animation name="Jump Down">
+				<Frame>5</Frame>
+				<Loop>0</Loop>
+				<Framerate>1</Framerate>
+			</Animation>
+			<Animation name="Crouch">
+				<Frame>2</Frame>
+				<Loop>0</Loop>
+				<Framerate>1</Framerate>
+			</Animation>
+			<Animation name="Look Up">
+				<Frame>3</Frame>
+				<Loop>0</Loop>
+				<Framerate>1</Framerate>
+			</Animation>
+			<Animation name="Spin">
+				<Frame>0</Frame>
+				<Frame>7</Frame>
+				<Frame>8</Frame>
+				<Frame>11</Frame>
+				<Loop>1</Loop>
+				<Framerate>3</Framerate>
+			</Animation>
+			<Animation name="Die">
+				<Frame>8</Frame>
+				<Frame>9</Frame>
+				<Loop>1</Loop>
+				<Framerate>2</Framerate>
+			</Animation>
+			<Animation name = "Victory">
+				<Frame>10</Frame>
+				<Frame>10</Frame>
+				<Loop>1</Loop>
+				<Framerate>0.5</Framerate>
+			</Animation>
+			<Animation name = "Slide">
+				<Frame>12</Frame>
+				<Frame>12</Frame>
+				<Loop>1</Loop>
+				<Framerate>0.5</Framerate>	
+			</Animation>
+		</player>
+		<player name = "BigMario">
+			<width>72</width>
+			<height>96</height>
+			<Animation name="Stand">
+				<Frame>0</Frame>
+				<Loop>0</Loop>
+				<Framerate>1</Framerate>
+			</Animation>
+			<Animation name="Walk">
+				<Frame>0</Frame>
+				<Frame>1</Frame>
+				<Frame>2</Frame>
+				<Loop>1</Loop>
+				<Framerate>8</Framerate>
+			</Animation>
+			<Animation name="Jump Up">
+				<Frame>3</Frame>
+				<Loop>0</Loop>
+				<Framerate>1</Framerate>
+			</Animation>
+			<Animation name="Jump Down">
+				<Frame>4</Frame>
+				<Loop>0</Loop>
+				<Framerate>1</Framerate>
+			</Animation>
+			<Animation name="Crouch">
+				<Frame>5</Frame>
+				<Loop>0</Loop>
+				<Framerate>1</Framerate>
+			</Animation>
+			<Animation name="Look Up">
+				<Frame>6</Frame>
+				<Loop>0</Loop>
+				<Framerate>1</Framerate>
+			</Animation>
+			<Animation name="Spin">
+				<Frame>0</Frame>
+				<Frame>6</Frame>
+				<Frame>7</Frame>
+				<Frame>11</Frame>
+				<Loop>1</Loop>
+				<Framerate>3</Framerate>
+			</Animation>
+			<Animation name="Transform">
+				<Frame>0</Frame>
+				<Frame>9</Frame>
+				<Loop>1</Loop>
+				<Framerate>10</Framerate>
+			</Animation>
+			<Animation name = "Victory">
+				<Frame>10</Frame>
+				<Frame>10</Frame>
+				<Loop>1</Loop>
+				<Framerate>0.5</Framerate>
+			</Animation>
+			<Animation name = "Slide">
+				<Frame>12</Frame>
+				<Frame>12</Frame>
+				<Loop>1</Loop>
+				<Framerate>0.5</Framerate>
+			</Animation>
+		</player>
+	</players>
+	<enemies>
+		<Directory name = "../lib/Entities/"/>
+		<enemies type  = "Enemies::Turtle" name = "Turtle">
+			<width>48</width>
+			<height>81</height>
+			<Animation name="Stand">
+				<Frame>0</Frame>
+				<Frame>0</Frame>
+				<Loop>0</Loop>
+				<Framerate>1</Framerate>
+			</Animation>
+			<Animation name="Turn">
+				<Frame>2</Frame>
+				<Loop>0</Loop>
+				<Framerate>8</Framerate>
+			</Animation>
+			<Animation name="Walk">
+				<Frame>0</Frame>
+				<Frame>1</Frame>
+				<Loop>1</Loop>
+				<Framerate>3</Framerate>
+			</Animation>
+			<enemy name = "GreenTurtle">
+			</enemy>
+			<enemy name = "RedTurtle">
+			</enemy>
+		</enemies>
+		<enemies type  = "Enemies::TurtleSmall" name ="TurtleSmall">
+			<width>48</width>
+			<height>48</height>
+			<Animation name="Fall">
+				<Frame>0</Frame>
+				<Frame>1</Frame>
+				<Loop>1</Loop>
+				<Framerate>1</Framerate>
+			</Animation>
+			<Animation name="Stand">
+				<Frame>0</Frame>
+				<Loop>0</Loop>
+				<Framerate>2</Framerate>
+			</Animation>
+			<Animation name="Walk">
+				<Frame>2</Frame>
+				<Frame>3</Frame>
+				<Loop>1</Loop>
+				<Framerate>2</Framerate>
+			</Animation>
+			<Animation name="Die">
+				<Frame>0</Frame>
+				<Loop>1</Loop>
+				<Framerate>1</Framerate>
+			</Animation>
+			<enemy name = "GreenTurtleSmall">
+			</enemy>
+			<enemy name = "RedTurtleSmall">
+			</enemy>
+		</enemies>
+	</enemies>
+	<items>
+		<Directory name = "../lib/Items/"/>
+		<item type = "Item::Pole" name = "Pole">
+			<width>24</width>
+			<height>672</height>
+			<Animation name="Stand">
+				<Frame>0</Frame>
+				<Loop>1</Loop>
+				<Framerate>1</Framerate>
+			</Animation>
+			<item name = "StandardPole"/>
+		</item>
+		<item type  = "Item::Flag" name = "Flag">
+			<width>42</width>
+			<height>45</height>
+			<Animation name="Stand">
+				<Frame>0</Frame>
+				<Loop>1</Loop>
+				<Framerate>1</Framerate>
+			</Animation>
+			<item name = "StandardFlag"/>
+		</item>
+		<item type = "Item::ItemBox" name = "ItemBox">
+			<width>48</width>
+			<height>48</height>
+			<Animation name="Stand">
+				<Frame>0</Frame>
+				<Loop>1</Loop>
+				<Framerate>1</Framerate>
+			</Animation>
+			<Animation name="Spin">
+				<Frame>0</Frame>
+				<Frame>1</Frame>
+				<Frame>2</Frame>
+				<Frame>3</Frame>
+				<Loop>1</Loop>
+				<Framerate>4</Framerate>
+			</Animation>
+			<Animation name = "Die">
+				<Frame>4</Frame>
+				<Frame>4</Frame>
+				<Loop>1</Loop>
+				<Framerate>4</Framerate>
+			</Animation>
+			<item name = "RedItemBox"/>
+			<item name = "YellowItemBox"/>
+		</item>
+		<item type = "Item::Mushroom" name = "Mushroom">
+			<width>48</width>
+			<height>48</height>
+			<Animation name="Stand">
+				<Frame>0</Frame>
+				<Loop>1</Loop>
+				<Framerate>1</Framerate>
+			</Animation>
+			<item name = "GreenMushroom"></item>
+			<item name = "RedMushroom"></item>
+		</item>
+		<item type = "Item::Shell" name = "Shell">			
+			<width>48</width>
+			<height>48</height>
+			<Animation name="Stand">
+				<Frame>0</Frame>
+				<Loop>1</Loop>
+				<Framerate>1</Framerate>
+			</Animation>
+			<Animation name="Spin">
+				<Frame>0</Frame>
+				<Frame>1</Frame>
+				<Frame>2</Frame>
+				<Frame>3</Frame>
+				<Loop>1</Loop>
+				<Framerate>4</Framerate>
+			</Animation>
+			<item name ="GreenShell"></item>
+			<item name ="RedShell"></item>
+		</item>
+		<item type = "Item::Coin" name = "Coin">
+			<width>36</width>
+			<height>48</height>
+			<Animation name="Spin">
+				<Frame>0</Frame>
+				<Frame>1</Frame>
+				<Frame>2</Frame>
+				<Frame>3</Frame>
+				<Loop>1</Loop>
+				<Framerate>4</Framerate>
+			</Animation>
+			<item name ="BlueCoin">
+			</item>
+			<item name ="YellowCoin">
+			</item>
+		</item>
+		<item type = "Item::PuzzlePipe" name = "Pipe">
+			<width>96</width>
+			<height>96</height>
+			<Animation name="Spin">
+				<Frame>0</Frame>
+				<Frame>1</Frame>
+				<Frame>2</Frame>
+				<Frame>3</Frame>
+				<Frame>4</Frame>
+				<Loop>1</Loop>
+				<Framerate>8</Framerate>
+			</Animation>
+			<item name ="PuzzlePipe">
+			</item>
+		</item>
+	</items>
+	<minigames>
+		<Directory name = "../lib/Minigames/"/>
+		<asset type = "Lumines" name = "Blocks">
+			<extension>.png</extension>
+			<width>42</width>
+			<height>42</height>
+			<Animation name="Spin">
+				<Frame>0</Frame>
+				<Frame>1</Frame>
+				<Frame>2</Frame>
+				<Frame>3</Frame>
+				<Loop>1</Loop>
+				<Framerate>5</Framerate>
+			</Animation>
+			<asset name = "RedBlock">
+				<color>0xf84050</color>
+			</asset>
+			<asset name = "GreenBlock">
+				<color>0x10e010</color>
+			</asset>
+			<asset name = "BlueBlock">
+				<color>0x4050e0</color>
+			</asset>
+			<asset name = "YellowBlock">
+				<color>0xf8f800</color>
+			</asset>
+			<asset name = "RedXBlock">
+				<color>0xf84050</color>
+			</asset>
+			<asset name = "GreenXBlock">
+				<color>0x10e010</color>
+			</asset>
+			<asset name = "BlueXBlock">
+				<color>0x4050e0</color>
+			</asset>
+			<asset name = "YellowXBlock">
+				<color>0xf8f800</color>
+			</asset>
+		</asset>
+		<asset type = "Lumines" name = "BlockIcons">
+			<extension>.png</extension>
+			<width>70</width>
+			<height>70</height>
+			<Animation name="Spin">
+				<Frame>0</Frame>
+				<Frame>1</Frame>
+				<Frame>2</Frame>
+				<Frame>3</Frame>
+				<Loop>1</Loop>
+				<Framerate>5</Framerate>
+			</Animation>
+			<asset name = "RedBlockIcon">
+				<color>0xf84050</color>
+			</asset>
+			<asset name = "GreenBlockIcon">
+				<color>0x10e010</color>
+			</asset>
+			<asset name = "BlueBlockIcon">
+				<color>0x4050e0</color>
+			</asset>
+			<asset name = "YellowBlockIcon">
+				<color>0xf8f800</color>
+			</asset>
+		</asset>
+		<asset type = "Lumines" name = "Background">
+			<extension>.jpg</extension>
+			<width>1024</width>
+			<height>768</height>
+			<Animation name="Stand">
+				<Frame>0</Frame>
+				<Loop>1</Loop>
+				<Framerate>1</Framerate>
+			</Animation>
+			<Animation name="Spin">
+				<Frame>0</Frame>
+				<Frame>1</Frame>
+				<Frame>2</Frame>
+				<Frame>3</Frame>
+				<Frame>4</Frame>
+				<Frame>5</Frame>
+				<Frame>6</Frame>
+				<Loop>1</Loop>
+				<Framerate>3</Framerate>
+			</Animation>
+			<asset name = "Crystal">
+				<color>0x10e010</color>
+			</asset>
+		</asset>
+		<asset type = "Lumines" name = "MarioIcon">
+			<extension>.png</extension>
+			<width>72</width>
+			<height>96</height>
+			<Animation name="Stand">
+				<Frame>0</Frame>
+				<Loop>1</Loop>
+				<Framerate>1</Framerate>
+			</Animation>
+			<Animation name="Jump Up">
+				<Frame>1</Frame>
+				<Loop>1</Loop>
+				<Framerate>1</Framerate>
+			</Animation>
+			<Animation name="Jump Down">
+				<Frame>2</Frame>
+				<Loop>1</Loop>
+				<Framerate>1</Framerate>
+			</Animation>
+			<Animation name="Alert">
+				<Frame>3</Frame>
+				<Frame>4</Frame>
+				<Loop>1</Loop>
+				<Framerate>4</Framerate>
+			</Animation>
+			<asset name = "MarioIcon">
+				<color>0x000000</color>
+			</asset>
+		</asset>
+		<asset type = "Lumines" name = "MarioIcon">
+			<extension>.png</extension>
+			<width>96</width>
+			<height>128</height>
+			<Animation name="Stand">
+				<Frame>0</Frame>
+				<Loop>1</Loop>
+				<Framerate>1</Framerate>
+			</Animation>
+			<Animation name="Jump Up">
+				<Frame>1</Frame>
+				<Loop>1</Loop>
+				<Framerate>1</Framerate>
+			</Animation>
+			<Animation name="Jump Down">
+				<Frame>2</Frame>
+				<Loop>1</Loop>
+				<Framerate>1</Framerate>
+			</Animation>
+			<Animation name="Alert">
+				<Frame>3</Frame>
+				<Frame>4</Frame>
+				<Loop>1</Loop>
+				<Framerate>4</Framerate>
+			</Animation>
+			<asset name = "BigMarioIcon">
+				<color>0x000000</color>
+			</asset>
+		</asset>
+	</minigames>
+</entities>

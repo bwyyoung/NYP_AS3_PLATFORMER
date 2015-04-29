@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Sounds>
+	<Directory name = "../lib/Sounds/"/>
+	<Sound type = "FX">
+		<extension>.mp3</extension>
+		<Sound name = "MoveBlock"/>
+		<Sound name = "QuadBlock"/>
+		<Sound name = "Reload"/>
+		<Sound name = "Yatah"/>
+		<Sound name = "jump_big"/>
+		<Sound name = "jump_small"/>
+		<Sound name = "shell"/>
+	</Sound>
+	<Sound type = "Music">
+		<extension>.mp3</extension>
+		<Sound name = "Battle"/>
+		<Sound name = "Die"/>
+		<Sound name = "Junior"/>
+		<Sound name = "LevelComplete"/>
+		<Sound name = "World"/>
+		<Sound name = "Win"/>
+	</Sound>
+</Sounds>
